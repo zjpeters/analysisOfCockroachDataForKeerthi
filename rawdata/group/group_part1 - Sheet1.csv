@@ -1,0 +1,11 @@
+Date,Experiment Type,Batch ,Cockroach ID (number of dots),Points on Arena On Cam ,
+8/20/2025,Iso/Nothing,2,"                  0,1,2,3,4",Left :Iso,Right:Nothing
+8/21/2025,Iso/Nothing,1,"0,1,2,3,4",Left:Iso,Right:Nothing
+8/22/2025,Feces/Nothing,4,"0,1,2,3,4",Left:Feces,Right:Nothing
+8/23/2025,Feces/Nothing,3,"0,1,2,3,4",Left:Nothing,Right:Feces
+8/26/2025,Iso/Feces,5,"0,1,2,3,4",Left:Iso,Right:Feces
+8/27/2025,Iso/Feces,6,"0,1,2,3,4",Left:Feces,Right:Iso
+8/28/2025,Iso/Nothing,7,"0,1,2,3,4",Left:Iso,Right:Nothing
+8/29/2025,Iso/Nothing,8,"0,1,2,3,4",Left:Iso,Right:Nothing
+8/30/2025,Feces/Nothing,9,"0,1,2,3,4",Left:Nothing,Right:Feces
+8/31/2025,Feces/Nothing,10,"0,1,2,3,4",Left:Feces,Right.Nothing
