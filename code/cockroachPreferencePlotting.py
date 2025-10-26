@@ -103,6 +103,7 @@ def boxPlotWithScatter(inputDataframe, columnToPlot, plotTitle=None):
     plt.show()
     
 boxPlotWithScatter(group_quadrant_indices, 'PI_stimulus')
+plt.savefig(os.path.join(derivatives, 'group_quadrant_indices_PI_stimulus_box_plots_with_scatter.png'), dpi=300)
 
 #%% create a dataframe that combines bottom_ns and top_ns into singular ns
 group_quadrant_indices_ns = group_quadrant_indices
