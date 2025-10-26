@@ -10,7 +10,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
 import seaborn as sns
-import seaborn.objects as so
 
 # rawdata where csvs are stored
 rawdata = os.path.join('/','home','zjpeters','Documents','otherLabs','cockroachData','rawdata')
@@ -114,10 +113,9 @@ group_quadrant_indices_ns = group_quadrant_indices_ns.replace({'bottom_ns': 'Ope
 group_quadrant_indices_ns['preferred_stimulus_or_quadrant'] = pd.Categorical(group_quadrant_indices_ns['preferred_stimulus_or_quadrant'], ['Nothing','Feces','Iso','Open area'])
 #%% stacked bar chart for preference
 # plots the group along the x axis, and proportion of preferred stim on y axis
-
 plt.close('all')
 plt.figure()
-sns.histplot(
+ax = sns.histplot(
     data=group_quadrant_indices_ns,
     x="batch", hue="preferred_stimulus_or_quadrant", color="experiment_type",
     multiple="fill", stat="proportion",
